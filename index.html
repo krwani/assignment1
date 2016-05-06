@@ -26,7 +26,7 @@ h2{
  color:blue;
  background-color:yellow;
  width:130px;float:right;
- border-left:5px solid black;
+border-left:5px solid black;
  border-bottom:5px solid black;
  box-sizing: border-box;
 }
@@ -40,7 +40,7 @@ h3{
  float:right;
  width:130px; 
  position:right;
- border-left:5px solid black;
+border-left:5px solid black;
  border-bottom:5px solid black;
  box-sizing: border-box;
 }
@@ -48,24 +48,71 @@ h3{
  float:left;
 font-size:20px;
  background-color:grey;
- border:5px solid black;
- height:250px;
- width:470px;
+border:5px solid black;
+ height:300px;
+ width:400px;
  box-sizing: border-box;
- margin:25px;
+ margin:22px;
  text-align:center;
+}
+@media (max-width: 767px) {
+    /* For mobiles: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media (min-width: 992px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
 }
 </style>
 </head>
 <body>
 <h1>Our Menu</h1>
-<div class ="a">
+<div class="row">
+<div class ="a col-s-1 col-4 col-m-6">
  <h2>section1</h2><p>Vision of Mr.Sajjan Jindal, Chairman of JSW is very inspirational. It shows growth of a company till now and its future goals. His vision gives a clear idea and utmost reliability of organization’s progress in near time. I suppose this SIP is looking for Innovative, Determined and Ambitious students.</p></div>
-<div class ="a">
+<div class ="a col-s-1 col-4 col-m-6">
  <h3>section2</h3><p>Vision of Mr.Sajjan Jindal, Chairman of JSW is very inspirational. It shows growth of a company till now and its future goals. His vision gives a clear idea and utmost reliability of organization’s progress in near time. I suppose this SIP is looking for Innovative, Determined and Ambitious students.</p>
 </div>
-<div class ="a">
+<div class ="a col-s-1 col-4 col-m-6">
 <h4>section3</h4><p>Vision of Mr.Sajjan Jindal, Chairman of JSW is very inspirational. It shows growth of a company till now and its future goals. His vision gives a clear idea and utmost reliability of organization’s progress in near time. I suppose this SIP is looking for Innovative, Determined and Ambitious students.</p>
+</div>
 </div>
 </body>
 </html>
