@@ -1,5 +1,5 @@
-.row{
- align:center;
+.center {
+    margin: auto;
 }
 h1{
  text-align:center;
