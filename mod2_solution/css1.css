@@ -47,18 +47,18 @@ border-left:5px solid black;
 }
 
 .right {
-    position: relative;
+    position: absolute;
     right: 0px;
     width: 300px;
 }
 
 .center {
-    position: relative;
+    position: absolute;
     width: 300px;
 }
 
 .left {
-    position: relative;
+    position: absolute;
     left: 0px;
     width: 300px;
 }
