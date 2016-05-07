@@ -41,9 +41,26 @@ border-left:5px solid black;
  border-bottom:5px solid black;
  box-sizing: border-box;
 }
-.center{
+.container {
     position: relative;
     width: 100%;
+}
+
+.right {
+    position: relative;
+    right: 0px;
+    width: 300px;
+}
+
+.center {
+    position: relative;
+    width: 300px;
+}
+
+.left {
+    position: relative;
+    left: 0px;
+    width: 300px;
 }
 .a{
  float:left;
